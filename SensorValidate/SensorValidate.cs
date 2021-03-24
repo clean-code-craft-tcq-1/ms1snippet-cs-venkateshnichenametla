@@ -3,7 +3,7 @@ namespace SensorValidate
 {
     public class SensorValidator
     {
-        public static bool IsValueGreaterThanMaxDelta(double value, double maxDelta) 
+        private static bool IsValueGreaterThanMaxDelta(double value, double maxDelta) 
         {
             return value > maxDelta;
         }
